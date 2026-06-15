@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descarga de Aplicaciones - Testing</title>
+    <meta name="description" content="Página de descarga para versiones de prueba de la aplicación en Android (APK) e iOS (IPA).">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-elements">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+    
+    <main class="container">
+        <header class="header">
+            <h1>Testing de App</h1>
+            <p>Descarga las últimas versiones de prueba para tu dispositivo.</p>
+        </header>
+
+        <div class="cards-wrapper">
+            <!-- Tarjeta Android -->
+            <div class="card">
+                <div class="card-icon android-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4483-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993.0003.5511-.4482.9997-.9993.9997zm-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5515 0 .9997.4482.9997.9993 0 .5511-.4482.9997-.9997.9997zm11.4045-6.02l1.9973-3.4592a.416.416 0 00-.1521-.5676.416.416 0 00-.5676.1521l-2.0223 3.503C15.5902 8.244 13.8533 7.85 12 7.85s-3.5902.394-5.1367 1.1002L4.841 5.447a.416.416 0 00-.5676-.1521.416.416 0 00-.1521.5676l1.9973 3.4592C2.6889 11.1867.3432 14.6589 0 18.761h24c-.3432-4.1021-2.6889-7.5743-6.1185-9.4396z"/>
+                    </svg>
+                </div>
+                <h2>Android</h2>
+                <p>Versión en formato APK para dispositivos Android.</p>
+                <a href="app.apk" class="btn btn-android" download>
+                    <span>Descargar APK</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                </a>
+            </div>
+
+            <!-- Tarjeta iOS -->
+            <div class="card">
+                <div class="card-icon ios-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M16.365 21.444c-1.12.535-2.261.85-3.376.85-1.17 0-2.348-.344-3.513-.933-1.045-.533-2.022-1.054-2.85-1.054-.803 0-1.745.503-2.753 1.019-1.22.62-2.453 1.161-3.693 1.161-.25 0-.503-.016-.757-.05-2.316-.312-4.334-1.898-5.834-4.582-1.632-2.915-2.584-6.685-2.584-10.231 0-3.327 1.056-6.19 2.973-8.066 1.747-1.706 4.073-2.673 6.55-2.673.208 0 .422.008.641.026 1.63.125 3.106.87 4.398 1.517.92.463 1.761.884 2.404.884.664 0 1.528-.432 2.47-.905 1.353-.679 2.87-1.443 4.606-1.443 1.83 0 3.655.614 5.219 1.758 2.052 1.5 3.393 3.67 3.84 6.216-.07.037-4.103 2.2-4.103 6.786 0 4.148 2.766 6.136 3.013 6.309-1.002 2.761-2.613 5.344-4.651 7.421zm-5.02-21.444c.48-1.572 1.488-2.96 2.812-3.86 1.144-.78 2.522-1.226 3.963-1.282-.128 1.636-.78 3.119-1.836 4.17-1.127 1.126-2.632 1.748-4.225 1.748-.052 0-.104-.002-.157-.006-.118-1.49.52-2.992 1.445-3.87z"/>
+                    </svg>
+                </div>
+                <h2>Apple iOS</h2>
+                <p>Versión en formato IPA para dispositivos iPhone/iPad.</p>
+                <a href="app.ipa" class="btn btn-ios" download>
+                    <span>Descargar IPA</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                </a>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <p>Instrucciones: Toca el botón para descargar el archivo. En Android, es posible que debas permitir la instalación de aplicaciones de orígenes desconocidos.</p>
+        </footer>
+    </main>
+</body>
+</html>
